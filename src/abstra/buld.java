@@ -2,27 +2,32 @@ package abstra;
 
 
 
-abstract class buld {
-public void stone(){
-	  System.out.println("rock");
-}
-public void paint()
-{
-	  
-}
-}
-class ambuja extends buld{
-	public void paint(String pname) {
-		System.out.println("the paint you want to add is "+ pname);
+class build {
+	
+	public build() {
+		System.out.println("hello sum");
+	}
+	void green() {
+		
+	}
+	}
+class prop extends build{
+	prop()
+	{
+super();
+		
+	}
+	void green() {
+		
+		System.out.println("hello green");
 	}
 }
-class Bajaj{
-	 public static void main(String args[]) {
-		 ambuja aj = new ambuja();
-		 aj.stone();
-		 aj.paint("black");
-		 
-		 
-	 }
+public class buld {
+	public static void main(String args[]) {
+		prop p = new prop();
+		
+		
+		
+	}
 	
 }
